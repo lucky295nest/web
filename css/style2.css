@@ -1,0 +1,66 @@
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    width: 80%;
+    margin-left: 10%;
+    border: rgba(255, 255, 255, 0.055);
+    border-style: solid;
+    background-color: rgb(31, 31, 31);
+}
+
+main {
+    color: whitesmoke; 
+    width: 70%; 
+    margin-left: 10px
+}
+
+p {
+    font-size: medium;
+}
+
+b {
+    color: rgb(110, 255, 66);
+}
+
+header {
+    text-align: center;
+    font-weight: bolder;
+    background-color: rgb(25, 25, 25);
+    color: whitesmoke;
+    padding: 5px;
+}
+
+footer {
+    text-align: left;
+    font-weight: bolder;
+    background-color: rgb(25, 25, 25);
+    color: whitesmoke;
+    padding: 5px;
+}
+
+a {
+    color: deepskyblue;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(44, 44, 44);
+    justify-content: center;
+}
+
+.flex-container > div {
+    background-color: #ffffff;
+    width: 250px;
+    height: 75px;
+    margin: 10px;
+    text-align: center;
+}
+
+.responsive {
+    max-width: 100%;
+    height: auto;
+}
+
+.blankspace {
+    background-color: rgb(49, 49, 49);
+}
