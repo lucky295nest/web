@@ -23,7 +23,7 @@ const draw = () => {
 	context.fillStyle = 'rgba(25, 25, 25, 0.125)';
 	context.fillRect(0, 0, canvas.width, canvas.height);
 	
-	context.fillStyle = 'rgb(255,100,255)';
+	context.fillStyle = '#FF00FF';
 	context.font = fontSize + 'px monospace';
 
 	for(let i = 0; i < rainDrops.length; i++)
